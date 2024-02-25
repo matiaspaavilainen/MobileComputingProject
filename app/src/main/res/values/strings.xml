@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chatter</string>
+    <string name="notification_channel">All Notifications</string>
+    <string name="channel_description">Enables all notifications</string>
+</resources>
