@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86f6e39e-67b3-4616-b8df-756c5b5c8b7e" name="Changes" comment="Initial commit" />
+    <list default="true" id="86f6e39e-67b3-4616-b8df-756c5b5c8b7e" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/main/chatter/RegistrationScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/main/chatter/RegistrationScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/main/chatter/StartScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/main/chatter/StartScreen.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +22,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Matias Paavilainen\.android\avd\Pixel_3a_API_34_extension_level_7_x86_64.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[7dc5d810]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -90,11 +94,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "ScreenRecorder.SavePath": "C:\\Users\\Matias Paavilainen\\Desktop",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "com.google.services.firebase.aqiPopupShown": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Matias Paavilainen/Documents/Ohjelmointi/Chatter",
+    "last_opened_file_path": "C:/Users/Matias Paavilainen/Desktop",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }

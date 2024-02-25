@@ -81,7 +81,8 @@ fun StartScreen(
             OutlinedTextField(
                 value = userUiState.userName,
                 onValueChange = { userName ->
-                    userViewModel.updateUserName(userName)
+                    val trimmedName = userName.trim()
+                    userViewModel.updateUserName(trimmedName)
                 },
                 label = { Text("Username") },
                 maxLines = 1,
@@ -94,7 +95,8 @@ fun StartScreen(
                 OutlinedTextField(
                     value = userUiState.passWord,
                     onValueChange = { passWord ->
-                        userViewModel.updatePassWord(passWord)
+                        val trimmedPW = passWord.trim()
+                        userViewModel.updatePassWord(trimmedPW)
                         logInFailed = false
                     },
                     label = { Text("Password") },

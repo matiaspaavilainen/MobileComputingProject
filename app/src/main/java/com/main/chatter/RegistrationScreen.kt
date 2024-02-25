@@ -78,7 +78,8 @@ fun RegistrationScreen(
             OutlinedTextField(
                 value = userUiState.userName,
                 onValueChange = { userName ->
-                    if (userName.length <= 32) userViewModel.updateUserName(userName)
+                    val trimmedName = userName.trim()
+                    if (trimmedName.length <= 32) userViewModel.updateUserName(trimmedName)
                 },
                 label = { Text("Username") },
                 maxLines = 1,
@@ -91,7 +92,8 @@ fun RegistrationScreen(
                 OutlinedTextField(
                     value = userUiState.passWord,
                     onValueChange = { passWord ->
-                        if (passWord.length <= 32) userViewModel.updatePassWord(passWord)
+                        val trimmedPW = passWord.trim()
+                        if (trimmedPW.length <= 32) userViewModel.updatePassWord(trimmedPW)
                     },
                     label = { Text("Password") },
                     maxLines = 1,
@@ -106,7 +108,12 @@ fun RegistrationScreen(
             AnimatedVisibility(visible = userUiState.passWord.length >= 8) {
                 OutlinedTextField(
                     value = repeatPassword,
-                    onValueChange = { if (repeatPassword.length <= 32) repeatPassword = it },
+                    onValueChange = { newPassword ->
+                        val trimmedNewPW = newPassword.trim()
+                        if (trimmedNewPW.length <= 32) {
+                            repeatPassword = trimmedNewPW
+                        }
+                    },
                     label = { Text("Re-enter Password") },
                     maxLines = 1,
                     visualTransformation = PasswordVisualTransformation(),
